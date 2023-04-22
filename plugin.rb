@@ -42,14 +42,14 @@ class Onebox::Engine::NeteasemusicOnebox
         case item_type
         when 1
             <<-HTML
-            <iframe 
-            frameborder="no" 
-            border="0" 
-            marginwidth="0" 
-            marginheight="0" 
-            width=330 
+            <iframe
+            frameborder="no"
+            border="0"
+            marginwidth="0"
+            marginheight="0"
+            width=330
             height=450 
-            src="https://music.163.com/outchain/player?type=1&id=#{item_id}&auto=0&height=430">
+            src="//music.163.com/outchain/player?type=1&id=#{item_id}&auto=0&height=430">
             </iframe>
             HTML
         when 2
@@ -61,7 +61,7 @@ class Onebox::Engine::NeteasemusicOnebox
             marginheight="0" 
             width=330 
             height=86 
-            src="https://music.163.com/outchain/player?type=2&id=#{item_id}&auto=0&height=66">
+            src="//music.163.com/outchain/player?type=2&id=#{item_id}&auto=0&height=66">
             </iframe>
             HTML
         end
